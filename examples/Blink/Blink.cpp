@@ -3,6 +3,7 @@
   Turns on an LED on for one second, then off for one second, repeatedly.
   This example code is in the public domain.
  */
+#include <Arduino.h>
 
 void setup() {                
 	// initialize the digital pin as an output.
@@ -12,7 +13,7 @@ void setup() {
 
 void loop() {
 	digitalWrite(13, HIGH);   // set the LED on
-	delay(1000);              // wait for a second
+	delay(200);              // wait for a second
 	digitalWrite(13, LOW);    // set the LED off
-	delay(1000);              // wait for a second
+	delay(200);              // wait for a second
 }
